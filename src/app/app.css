@@ -1,7 +1,7 @@
 
 ::ng-deep body {
     margin: 0;
-    background-color: #ede6df;
+    background-color: #ffe0e9;
     display: flex;
     justify-content: center;
 
@@ -9,7 +9,7 @@
 .head {
     height: 75px;
     width: 100%;
-    background-color: #ede6df;
+    background-color: #ffe0e9;
     display: flex;
     justify-content: center;
 }
@@ -21,12 +21,12 @@
     font-weight: 200;
     font-size: 50px;
     font-family: 'Zen Tokyo Zoo';
-    color: #d84f2a;
+    color: #B9375E;
 }
 .calc-container {
     height: 300px;
     width: 450px;
-    border: solid 2px #094044;
+    border: solid 2px #434343;
     border-radius: 10px;
     display: flex;
     /* justify-content: center; */
@@ -36,7 +36,7 @@
 .serving-size-cal {
     height: 16px;
     width: 75px;
-    border: 1px solid #094044;
+    border: 1px solid #434343;
     border-radius: 5px;
     font-family: 'Roboto Condensed';
     font-size: 14px;
@@ -56,8 +56,69 @@
     width: 55px;
     font-family: 'Roboto Condensed';
     font-size: 14px;
-    border: 1px solid #094044;
+    border: 1px solid #434343;
     border-radius: 5px;
 }
+.nutrition-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 450px;
+    margin-top: 20px;
+    height: 100px;
+}
+.nutrition-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+    input {
+        height: 22px;
+        font-family: 'Roboto Condensed';
+    }
+    
+}
+.nutrition-units-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+    select {
+        height: 22px;
+    }
+}
+.actual-amount {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#actual-amount {
+    width: 134.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+}
+.calculate-button-display {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+#calculate-button {
+    width: 147px;
+    background-color: #d6f2f3;
+    color: #434343;
+    border: solid 1px #434343;
+    border-radius: 5px;
+}
+#calculated-nutrition {
+    width: 147px;
+    
+    color: #434343;
+    border: solid 1px #434343;
+    border-radius: 5px;
+}

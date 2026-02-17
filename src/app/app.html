@@ -7,8 +7,8 @@
     <h2 class="title">Nutrition Calculator</h2>
   </div>
   <div class="calc-container">
-    <div style="margin: 5px; font-family:'Roboto Condensed'; font-size: 14px;">First, start by entering the serving size amount listed on packaging as well
-      as the calories per serving.</div>
+    <div style="margin: 5px; font-family:'Roboto Condensed'; font-size: 14px;">Nutrition Information (from food
+      packaging)</div>
     <div class="inputs">
       <label for="serving-size">Serving Size:</label>
       <input class="serving-size-cal" id="serving-size" type="text">
@@ -21,6 +21,40 @@
       <label for="calories-per-serving">Calories Per Serving:</label>
       <input class="serving-size-cal" id="calories-per-serving" type="text">
     </div>
+    <div class="nutrition-label">
+      <div class="nutrition-inputs">
+        <input id="fat" type="text" placeholder="Total Fat">
+        <input id="carbs" type="text" placeholder="Total Carbohydrates">
+        <input id="protein" type="text" placeholder="Protein">
+      </div>
+      <div class="nutrition-units-select" style="display: flex;
+      flex-direction: column;">
+        <select id="fat-units" name="fat-units">
+          <option value="grams">g</option>
+          <option value="milligrams">mg</option>
+        </select>
+        <select id="carbs-units" name="carbs-units">
+          <option value="grams">g</option>
+          <option value="milligrams">mg</option>
+        </select>
+        <select id="protein-units" name="protein-units">
+          <option value="grams">g</option>
+          <option value="milligrams">mg</option>
+        </select>
+      </div>
+    </div>
+    <div class="calculation">
+      <div class="actual-amount">
+        <div style="margin: 5px; font-family:'Roboto Condensed'; font-size: 14px;">Enter the amount of food that you used</div>
+        <!--<label for="actual-amount">Actual Amount:</label>-->
+        <input id="actual-amount" type="text" placeholder="Actual Amount">
+      </div>
+      <div class="calculate-button-display"> 
+        <button id="calculate-button" >Calculate</button>
+        <input type="text" id="calculated-nutrition" placeholder="Calculated Nutrition">
+      </div>
+    </div>`
+      
 
   </div>
 </div>
