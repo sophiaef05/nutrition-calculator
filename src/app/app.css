@@ -1,0 +1,63 @@
+
+::ng-deep body {
+    margin: 0;
+    background-color: #ede6df;
+    display: flex;
+    justify-content: center;
+
+}
+.head {
+    height: 75px;
+    width: 100%;
+    background-color: #ede6df;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    height: 80px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    font-size: 50px;
+    font-family: 'Zen Tokyo Zoo';
+    color: #d84f2a;
+}
+.calc-container {
+    height: 300px;
+    width: 450px;
+    border: solid 2px #094044;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.serving-size-cal {
+    height: 16px;
+    width: 75px;
+    border: 1px solid #094044;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+}
+.inputs {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 14px;
+    align-items: center;
+    font-family: 'Roboto Condensed';
+    
+}
+.units-select {
+    height: 22px;
+    width: 55px;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    border: 1px solid #094044;
+    border-radius: 5px;
+}
+
+
